@@ -20,20 +20,20 @@ const Home = () => {
     <div className='cont'  >
         <img data-aos="fade-right" data-aos-delay="500" data-aos-once="true" className="logo" src={logo} />
         <h1 data-aos="fade-right" data-aos-delay="500" data-aos-once="true" className='head1'>KodeinKGP</h1>
-        <ul class="navbar">
-  <li class="nav-item" data-aos="fade-up" data-aos-delay="600" data-aos-once="true">
+        <ul className="navbar">
+  <li className="nav-item" data-aos="fade-up" data-aos-delay="600" data-aos-once="true">
     <Link to="/home" className='underline-link' >Home</Link>
   </li>
-  <li class="nav-item" data-aos="fade-up" data-aos-delay="700" data-aos-once="true">
+  <li className="nav-item" data-aos="fade-up" data-aos-delay="700" data-aos-once="true">
     <a  href="#" className='underline-link'>PDS_Bank</a>
   </li>
-  <li class="nav-item" data-aos="fade-up" data-aos-delay="800" data-aos-once="true">
+  <li className="nav-item" data-aos="fade-up" data-aos-delay="800" data-aos-once="true">
     <a  href="#" className='underline-link'>Articles</a>
   </li>
-  <li class="nav-item" data-aos="fade-up" data-aos-delay="900" data-aos-once="true">
+  <li className="nav-item" data-aos="fade-up" data-aos-delay="900" data-aos-once="true">
     <Link to="/teams" className='underline-link'>Teams</Link>
   </li>
-  <li class="nav-item" data-aos="fade-up" data-aos-delay="1000" data-aos-once="true">
+  <li className="nav-item" data-aos="fade-up" data-aos-delay="1000" data-aos-once="true">
     <a href='#' className='underline-link'>Events</a>
   </li>
 </ul>
