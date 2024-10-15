@@ -1,0 +1,99 @@
+
+.box1{
+  width: 270px;                /* Set width of the box */
+  height: 340px;               /* Set height of the box */
+  background: transparent;  /* Set background color */
+  border: 5px solid color-mix(in hsl shorter hue, cyan 60%, #fff 40%);      /* Set border with thickness and color */       /* Add rounded corners */
+  padding: 10px;               /* Set padding inside the box */
+  margin: 10px;                /* Set margin outside the box */
+  display: flex;               /* Use flexbox for alignment */
+  align-items: center;         /* Center items vertically */
+  justify-content: center; 
+  z-index: 1;    
+}
+.box1 img{
+    margin-left: 10px;
+    margin-top: -10px;
+    width: 200px;     /* Set container width */
+    height: 230px;    /* Set container height */
+    position: absolute;
+    overflow: hidden;
+    z-index: 1;
+    border-radius: 0px;
+}
+.box1:hover{
+    transition: all 0.5s ease-in-out;
+    transform: translateY(-7px);
+    box-shadow: 4px 4px 9px color-mix(in hsl shorter hue, cyan 80%, #fff 10%);;
+  }
+
+.logos{
+    display: flex;
+    position: absolute;
+    margin-top: 250px;
+    transform: scale(1.5);
+    gap: 5px;
+    color: color-mix(in hsl shorter hue, cyan 80%, #fff 10%);;
+}
+.name{
+    margin-top: 320px;
+    margin-right: 20px;
+    font-family: Arial, sans-serif;
+    font-size: larger;
+    font-weight: 900;
+    color: #fff;
+    position: absolute;
+}
+.head{
+    margin-top: -280px;
+    margin-left: -20px;
+    font-family: Arial, sans-serif;
+    font-size: larger;
+    font-weight: 900;
+    color: color-mix(in hsl shorter hue, cyan 80%, #fff 10%);
+}
+.container{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: space-around;
+}
+.Heads{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 620px;
+    position: relative;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    color: color-mix(in hsl shorter hue, cyan 80%, #fff 10%);
+}
+.Founder{
+    display: flex;
+    margin-bottom: 40px;
+    margin-left: 620px;
+    position: relative;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    color: color-mix(in hsl shorter hue, cyan 80%, #fff 10%);
+}
+.Founders{
+    display: flex;
+    position: relative;
+    margin-left: 350px;
+    gap: 40px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.Advisors{
+    display: flex;
+    position: relative;
+    gap: 30px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
