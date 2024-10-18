@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Home from './Home';
 import Footer from './Footer';
 import './Teams.css';
@@ -37,6 +37,11 @@ import ab from "./KIK/27.png";
 import abc from "./KIK/28.png";
 import abcd from "./KIK/29.png";
 function Teams(){
+    const [isActive, setIsActive]=useState(false);
+    const toggleHighlight =() =>{
+        setIsActive(!isActive);
+    }
+
     return(
         <>
         <Home/>

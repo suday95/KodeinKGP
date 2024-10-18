@@ -25,6 +25,10 @@
     transition: all 0.5s ease-in-out;
     transform: translateY(-7px);
     box-shadow: 4px 4px 9px color-mix(in hsl shorter hue, cyan 80%, #fff 10%);;
+    position: relative; /* Ensures the overlay is placed on top of the other elements */
+    background-color: rgba(255, 255, 255, 0.7); /* White background with 70% opacity */
+    z-index: 1000; /* Ensures the overlay appears on top */
+    
   }
 
 .logos{
@@ -97,3 +101,4 @@
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
